@@ -14,6 +14,8 @@ internal class MainClass
     {
         DataMahasiswa1302204100 mhs1 = new DataMahasiswa1302204100();
         mhs1.ReadJSON();
+        TeamMembers1302204100 mhs2 = new TeamMembers1302204100();
+        mhs2.ReadJSON();
 
     }
 }

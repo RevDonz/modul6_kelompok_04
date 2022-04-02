@@ -9,3 +9,6 @@ mhs1.ReadJson();
 TeamMembers_1302200022 team1 = new TeamMembers_1302200022();
 team1.ReadJson();
 
+GlossaryItem_1302200022 glossaryItem1 = new GlossaryItem_1302200022();
+glossaryItem1.ReadJson();
+

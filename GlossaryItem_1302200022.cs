@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace modul6_kelompok_04
 {
-    internal class TeamMembers_1302200022
+    internal class GlossaryItem_1302200022
     {
         public void ReadJson()
         {
             String path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
             // Membaca File JSON
-            string jsonString = File.ReadAllText(path + "\\jurnal6_2_1302200022.json");
+            string jsonString = File.ReadAllText(path + "\\jurnal6_3_1302200022.json");
 
             // Convert JSON menjadi Array
             dynamic data = JsonConvert.DeserializeObject(jsonString);

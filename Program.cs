@@ -9,9 +9,13 @@ namespace Mod6
         {
             DataMahasiswa1302200028 mahasiswa = new DataMahasiswa1302200028();
             TeamMembers1302200028 team = new TeamMembers1302200028();
+            GlossaryItem1302200028 gloss = new GlossaryItem1302200028();
+
             mahasiswa.ReadJson();
             Console.WriteLine();
             team.ReadJson();
+            Console.WriteLine();
+            gloss.ReadJson();
         }
     }
 

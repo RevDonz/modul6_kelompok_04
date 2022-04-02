@@ -13,7 +13,8 @@ namespace modul6_kelompok_04
 		public static void readJSON()
         {
             // Membaca File JSON
-            String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Praktikum/Modul 6/modul6_kelompok_04/jurnal6_1_1302204051.json");
+            String path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            String jsonString = File.ReadAllText(path + "\\jurnal6_1_1302204051.json");
 
             // Convert JSON menjadi Array
             dynamic data = JsonConvert.DeserializeObject(jsonString);

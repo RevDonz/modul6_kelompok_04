@@ -6,3 +6,6 @@ Console.WriteLine("Hello, World!");
 DataMahasiswa_1302200022 mhs1 = new DataMahasiswa_1302200022();
 mhs1.ReadJson();
 
+TeamMembers_1302200022 team1 = new TeamMembers_1302200022();
+team1.ReadJson();
+

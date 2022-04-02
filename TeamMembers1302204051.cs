@@ -9,7 +9,7 @@ namespace modul6_kelompok_04
 {
     internal class TeamMembers1302204051
     {
-        public void readJSON()
+        public static void readJSON()
         {
             // Membaca File JSON
             String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Praktikum/Modul 6/modul6_kelompok_04/jurnal6_2_1302204051.json");
@@ -22,6 +22,7 @@ namespace modul6_kelompok_04
             {
                 Console.WriteLine(item.nim + " " + item.firstName + " " + item.lastName + "( " + item.age + " " + item.nim + " )");
             }
+            Console.WriteLine();
         }
     }
 }

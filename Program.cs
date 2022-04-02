@@ -12,10 +12,8 @@ internal class MainClass
 {
     public static void Main(string[] args)
     {
-        DataMahasiswa1302204051 mhs1 = new DataMahasiswa1302204051();
-        mhs1.readJSON();
-
-        TeamMembers1302204051 kel4 = new TeamMembers1302204051();
-        kel4.readJSON();
+        DataMahasiswa1302204051.readJSON();
+        TeamMembers1302204051.readJSON();
+        GlossaryItem1302204051.readJSON();
     }
 }

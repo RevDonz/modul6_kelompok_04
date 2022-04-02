@@ -10,7 +10,7 @@ namespace modul6_kelompok_04
 {
     internal class DataMahasiswa1302204051
     {
-		public void readJSON()
+		public static void readJSON()
         {
             // Membaca File JSON
             String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Praktikum/Modul 6/modul6_kelompok_04/jurnal6_1_1302204051.json");

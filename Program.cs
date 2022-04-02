@@ -4,7 +4,8 @@ using System.Text.Json;
 using System.IO;
 
 
-namespace Jurnal6
+
+namespace modul6_kelompok_04
 {
     public class program
     {
@@ -24,8 +25,6 @@ namespace Jurnal6
             Console.WriteLine(objhasilbaca.courses[1].code);
 
             TeamMembers_1302204080 objhasilread = ReadJSON2();
-
-
         }
 
         static DataMahasiswa_1302204080 ReadJSON1()

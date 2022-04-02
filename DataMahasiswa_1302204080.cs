@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jurnal6
+
+namespace modul6_kelompok_04
 {
     public class DataMahasiswa_1302204080
     {

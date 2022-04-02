@@ -1,4 +1,3 @@
-
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -13,6 +12,13 @@ internal class MainClass
 {
     public static void Main(string[] args)
     {
+        // Yuna
+        DataMahasiswa1302204100 mhs1 = new DataMahasiswa1302204100();
+        mhs1.ReadJSON();
+        TeamMembers1302204100 team1 = new TeamMembers1302204100();
+        team1.ReadJSON();
+        GlossaryItem1302204100.ReadJSON();
+
         // Doni
         DataMahasiswa1302204051.readJSON();
         TeamMembers1302204051.readJSON();
@@ -51,3 +57,4 @@ internal class MainClass
         return objHasilDeserialisasi;
     }
 }
+

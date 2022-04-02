@@ -8,7 +8,8 @@ namespace Mod6
 	{
 		public void ReadJson()
 		{
-			string json = File.ReadAllText("D:\\repo_kpl\\modul6_kelompok_04\\tp6_2_1302200028.json");
+			String path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+			string json = File.ReadAllText(path + "\\tp6_2_1302200028.json");
 			dynamic data = JsonConvert.DeserializeObject(json);
 			Console.WriteLine("Team member list: ");
             foreach (var item in data.members)

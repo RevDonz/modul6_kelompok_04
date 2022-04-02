@@ -14,5 +14,8 @@ internal class MainClass
     {
         DataMahasiswa1302204051 mhs1 = new DataMahasiswa1302204051();
         mhs1.readJSON();
+
+        TeamMembers1302204051 kel4 = new TeamMembers1302204051();
+        kel4.readJSON();
     }
 }

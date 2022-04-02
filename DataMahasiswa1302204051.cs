@@ -18,11 +18,10 @@ namespace modul6_kelompok_04
             // Convert JSON menjadi Array
             dynamic data = JsonConvert.DeserializeObject(jsonString);
 
-            //
-            Console.WriteLine("Nama : " + data.firstName + " " + data.lastName); 
-            Console.WriteLine("Gender : " + data.gender);
-            Console.WriteLine("Umur : " + data.age);
-            Console.WriteLine("Alamat : " + data.address.streetAddress + ", " + data.address.city + ", " + data.address.state);
+            Console.WriteLine("Nama        : " + data.firstName + " " + data.lastName); 
+            Console.WriteLine("Gender      : " + data.gender);
+            Console.WriteLine("Umur        : " + data.age);
+            Console.WriteLine("Alamat      : " + data.address.streetAddress + ", " + data.address.city + ", " + data.address.state);
             Console.WriteLine("Mata Kuliah : ");
             foreach (var item in data.courses)
             {
@@ -30,7 +29,7 @@ namespace modul6_kelompok_04
                 Console.WriteLine("Kode matkul : " + item.code);
                 Console.WriteLine("Nama matkul : " + item.name);
             }
-
+            Console.WriteLine();
         }
     }
 }

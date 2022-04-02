@@ -20,12 +20,7 @@ namespace modul6_kelompok_04
             Console.WriteLine("Anggota Kelompok : ");
             foreach (var item in data.members)
             {
-                Console.WriteLine();
-                Console.WriteLine("Nama depan    : " + item.firstName);
-                Console.WriteLine("Nama belakang : " + item.lastName);
-                Console.WriteLine("Gender        : " + item.gender);
-                Console.WriteLine("Umur          : " + item.age);
-                Console.WriteLine("NIM           : " + item.nim);
+                Console.WriteLine(item.nim + " " + item.firstName + " " + item.lastName + "( " + item.age + " " + item.nim + " )");
             }
         }
     }

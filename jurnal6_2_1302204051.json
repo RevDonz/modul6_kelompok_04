@@ -1,0 +1,32 @@
+{
+  "members" : [
+    {
+      "firstName": "Amalia Yuna",
+      "lastName": "Puspita",
+      "gender": "female",
+      "age": 19,
+      "nim": "1302204100"
+    },
+    {
+      "firstName": "Rama",
+      "lastName": "Padliwinata",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302200028"
+    },
+    {
+      "firstName": "Zahrandi",
+      "lastName": "Rusrizal",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204080"
+    },
+    {
+      "firstName": "Naufal",
+      "lastName": "Chairrurijal",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302200022"
+    }
+  ]
+}

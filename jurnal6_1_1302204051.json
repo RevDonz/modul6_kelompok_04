@@ -1,0 +1,16 @@
+{
+   "firstName": "Reva Doni",
+   "lastName": "Aprilio",
+   "gender": "male",
+   "age": 25,
+   "address": {
+       "streetAddress": "Baleendah",
+       "city": "Bandung",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2E4", "name": "Basis Data"
+    }
+   ]
+}

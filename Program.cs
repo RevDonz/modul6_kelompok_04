@@ -1,22 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 
-namespace Mod6
+namespace modul6_kelompok_04;
+
+internal class MainClass
 {
-    class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            DataMahasiswa1302200028 mahasiswa = new DataMahasiswa1302200028();
-            TeamMembers1302200028 team = new TeamMembers1302200028();
-            GlossaryItem1302200028 gloss = new GlossaryItem1302200028();
-
-            mahasiswa.ReadJson();
-            Console.WriteLine();
-            team.ReadJson();
-            Console.WriteLine();
-            gloss.ReadJson();
-        }
+        DataMahasiswa1302204051.readJSON();
+        TeamMembers1302204051.readJSON();
+        GlossaryItem1302204051.readJSON();
     }
-
 }
